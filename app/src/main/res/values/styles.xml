@@ -1,0 +1,18 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+
+    <!-- 右上菜单弹出与关闭动画 -->
+    <style name="TopRightMenu_Anim">
+        <item name="android:windowExitAnimation">@anim/top_right_menu_exit</item>
+        <item name="android:windowEnterAnimation">@anim/top_right_menu_enter</item>
+    </style>
+
+</resources>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.jooyerbubblemenu.JooyerBubbleRecyclerView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:toools="http://schemas.android.com/tools"
+    android:id="@+id/rv_top_right_menu"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:jooyer_bubble_arrow_width="8dp"
+    app:jooyer_bubble_arrow_height="10dp"
+    app:jooyer_bubble_arrow_offset="20dp"
+    app:jooyer_bubble_arrow_radius="10dp"
+    app:jooyer_bubble_arrow_center="false"
+    app:jooyer_bubble_arrow_color="#fff"
+    app:jooyer_bubble_arrow_direction="jooyer_bubble_arrow_direction_top"
+    toools:itemlist="@layout/top_right_menu_item"
+    />
+
